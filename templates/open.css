@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    margin: auto;
+}
+
+.col-1 {
+    width: 50%;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #F8F9FA;
+}
+
+.col-2 {
+    width: 50%;
+    height: 970px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.row h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(31, 31, 31);
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.col-2 img {
+    margin-top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70%;
+}
+
+.col-1 h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 10%;
+}
+
+.col-1 p {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+#login {
+    font-size: 14px;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+.form-group {
+    padding-left: 10%;
+    padding-right: 60%;
+
+    transition: .3s;
+}
+
+.form-group:hover {
+    transform: scale(1.02);
+}
+
+.form-control::placeholder {
+    color: #dddddd;
+}
+
+.btn {
+    background-color: #0B33AD;
+    margin-left: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 35px;
+    width: 10%;
+
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.register {
+    color: #0B33AD;
+    text-decoration: none;
+}
+
+.register:hover {
+    text-decoration: underline;
+}

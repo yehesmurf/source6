@@ -119,6 +119,9 @@ input::-webkit-inner-spin-button {
     padding: 3px;
     background-color: #0B33AD;
     color: white;
+    margin-top: 15%;
+    margin-left: -27.7%;
+    margin-right: -27.7%;
 }
 
 .btn-success:hover {
@@ -191,3 +194,6 @@ input::-webkit-inner-spin-button {
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+/*  */
